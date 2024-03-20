@@ -2,6 +2,7 @@ from DataStructures.implementations.stack import Stack
 
 import pytest
 
+
 class TestStack:
 
     #  can create an instance of Stack class
