@@ -1,3 +1,4 @@
+# TODO : path compression can be improved
 class UnionFind:
     # we are assuming that data is a list
     def __init__(self, data):
@@ -18,7 +19,7 @@ class UnionFind:
 
         return root
 
-    def unify(self,p,q):
+    def unify(self, p, q):
         proot = self.find(p)
         qroot = self.find(q)
 
