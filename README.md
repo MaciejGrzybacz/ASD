@@ -3,31 +3,37 @@ This repository is a comprehensive collection of fundamental algorithms and data
 Currently in development phase.
 
 ## Implemented Data Structures 
+### Trees
+* Fenwick Tree
 * Binary Search Tree (BST)
+### Linked Lists
 * Doubly Linked List
-* Dynamic Array
+### Queues
 * Priority Queue
 * Queue
 * Stack
+### Hash Tables
+* HashTable
+### Arrays
+* Dynamic Array
+### Others
 * Union-Find
 
 ## Implemented Algorithms
-* 
+### Dynamic Programming
+### Geometry
+### Graph theory
+### Linear algebra
+### Mathematics
+### Search algorithms
+### Sorting algorithms
+### String algorithms
 
 ## Testing 
 Each data structure and algorithm is accompanied by a suite of unit tests to ensure correctness and robustness.
 
-## To-do list
-* Deque
-HashTable
-Indexed Priority Queue
-Longest Common Prefix Array
-Suffix Array
-AVL Tree
-Red-Black Tree
-Splay Tree
-B Tree
-B+ Tree
-Suffix Tree
-Fenwick Tree
-Segment Tree
+
+## Author
+
+Maciej Grzybacz
+
