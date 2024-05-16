@@ -1,5 +1,5 @@
 # Algorithms and Data Structures
-This repository is a comprehensive collection of fundamental algorithms and data structures, implemented in Python, aiming to provide a solid foundation for understanding the essentials of computer science.
+This repository is a comprehensive collection of fundamental algorithms and data structures, implemented in Python.
 Currently in development phase.
 
 ## Implemented Data Structures 
@@ -7,6 +7,7 @@ Currently in development phase.
 * Fenwick Tree
 * Binary Search Tree (BST)
 ### Linked Lists
+* Singly Linked List
 * Doubly Linked List
 ### Queues
 * Priority Queue
@@ -20,10 +21,21 @@ Currently in development phase.
 * Union-Find
 
 ## Implemented Algorithms
+
 ### Dynamic Programming
 ### Graph theory
 ### Search algorithms
+* Recursive Binary Search
+* Iterative Binary Search
+* Kadane's Algorithm
 ### Sorting algorithms
+* Bubble Sort
+* Bucket Sort
+* Selection Sort
+* Insertion Sort
+* Counting Sort
+* Quick Sort
+* Merge Sort
 ### String algorithms
 
 ## Testing 
@@ -72,20 +84,6 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 * Tarjan's Algorithm
 * Dantzig–Fulkerson–Johnson Algorithm
 * A* Algorithm
-  
-### Search Algorithms
-* Binary Search
-* Kadane's Algorithm
-* Closest Pair Algorithm
-
-### Sorting Algorithms
-* Bubble Sort
-* Insertion Sort
-* Selection Sort
-* Merge Sort
-* Quick Sort
-* Bucket Sort
-* Counting Sort
 
 ### String Algorithms
 * Knuth-Morris-Pratt Algorithm (KMP)
@@ -96,5 +94,5 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 
 ## Author
 
-Maciej Grzybacz
+### Maciej Grzybacz
 
