@@ -1,3 +1,17 @@
+"""
+This module contains the implementation of the following sorting algorithms:
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Bucket Sort
+- Count Sort
+- Quick Sort
+- Merge Sort
+
+Each function takes a list and returns a sorted list. The functions are tested in algorithms/sorting_algorithms/tests.py.
+
+"""
+
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -78,3 +92,62 @@ def count_sort(arr):
         arr[i] = output_arr[i]
 
     return arr
+
+
+def partition(arr, left, right):
+    x = arr[right]
+    i = left - 1
+    for j in range(left, right):
+        if arr[j] <= x:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+
+    arr[i + 1], arr[right] = arr[right], arr[i + 1]
+    return i + 1
+
+
+def quick_sort(arr, left=None, right=None):
+    if left is None:
+        left, right = 0, len(arr) - 1
+    while left < right:
+        q = partition(arr, left, right)
+        if q - left < right - q:
+            quick_sort(arr, left, q - 1)
+            left = q + 1
+        else:
+            quick_sort(arr, q + 1, right)
+            right = q - 1
+    return arr
+
+
+def merge(left_arr, right_arr):
+    merged = [0] * (len(left_arr) + len(right_arr))
+    i, j = 0, 0
+    while i < len(left_arr) and j < len(right_arr):
+        if left_arr[i] <= right_arr[j]:
+            merged[i + j] = left_arr[i]
+            i += 1
+        else:
+            merged[i + j] = right_arr[j]
+            j += 1
+
+    while i < len(left_arr):
+        merged[i + j] = left_arr[i]
+        i += 1
+
+    while j < len(right_arr):
+        merged[i + j] = right_arr[j]
+        j += 1
+
+    return merged
+
+
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr) // 2
+    left_arr = merge_sort(arr[:mid])
+    right_arr = merge_sort(arr[mid:])
+
+    return merge(left_arr, right_arr)

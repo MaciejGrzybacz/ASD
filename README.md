@@ -25,14 +25,17 @@ Currently in development phase.
 ### Dynamic Programming
 ### Graph theory
 ### Search algorithms
+* Recursive Binary Search
+* Iterative Binary Search
 * Kadane's Algorithm
-* Binary Search
 ### Sorting algorithms
 * Bubble Sort
 * Bucket Sort
 * Selection Sort
 * Insertion Sort
 * Counting Sort
+* Quick Sort
+* Merge Sort
 ### String algorithms
 
 ## Testing 
@@ -81,13 +84,6 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 * Tarjan's Algorithm
 * Dantzig–Fulkerson–Johnson Algorithm
 * A* Algorithm
-  
-### Search Algorithms
-* Closest Pair Algorithm
-
-### Sorting Algorithms
-* Merge Sort
-* Quick Sort
 
 ### String Algorithms
 * Knuth-Morris-Pratt Algorithm (KMP)
