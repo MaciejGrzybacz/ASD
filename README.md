@@ -55,6 +55,9 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 ### Arrays
 * Longest Common Prefix Array
 * Suffix Array
+### Graphs
+* Adjacency List Graph
+* Adjacency Matrix Graph
 
 
 ## Algorithms
@@ -92,6 +95,14 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 * Levenshtein Distance Algorithm
 * Rabin-Karp Algorithm
 
+### Numbers Algorithms
+* Sieve of Eratosthenes
+* Euclidean Algorithm
+* Extended Euclidean Algorithm
+* Miller-Rabin Primality Test
+* Chinese Remainder Theorem
+* Fast Fourier Transform (FFT)
+* Newton's Method
 ## Author
 
 ### Maciej Grzybacz

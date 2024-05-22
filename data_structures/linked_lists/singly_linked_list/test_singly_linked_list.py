@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.singly_linked_list import SinglyLinkedList
+from data_structures.linked_lists.singly_linked_list.singly_linked_list import SinglyLinkedList
 
 def test_empty_list_size():
     lst = SinglyLinkedList()

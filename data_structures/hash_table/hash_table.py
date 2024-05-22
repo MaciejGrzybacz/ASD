@@ -12,7 +12,6 @@ class HashTable:
         self.table = [None] * self.capacity
 
     def hash(self, key):
-        # Using Python's built-in hash function ensures a more uniform distribution
         return key**2 % self.capacity
 
     def contains_key(self, key):

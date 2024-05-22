@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.dynamic_array import DynamicArray
+from data_structures.arrays.dynamic_array.dynamic_array import DynamicArray
 
 def test_append_data():
     arr = DynamicArray()

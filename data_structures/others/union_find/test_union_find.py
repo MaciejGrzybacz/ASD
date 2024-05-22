@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.union_find import UnionFind
+from data_structures.others.union_find.union_find import UnionFind
 
 def test_initialize_with_list():
     data = [1, 2, 3, 4, 5]

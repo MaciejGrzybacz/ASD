@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.fenwick_tree import FenwickTree
+from data_structures.trees.fenwick_tree.fenwick_tree import FenwickTree
 
 def test_initialization_with_list():
     tree = [1, 2, 3, 4, 5]

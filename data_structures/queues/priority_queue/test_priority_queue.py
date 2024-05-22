@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.priority_queue import PriorityQueue
+from data_structures.queues.priority_queue.priority_queue import PriorityQueue
 
 def test_create_instance():
     pq = PriorityQueue()

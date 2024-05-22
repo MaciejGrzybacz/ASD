@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.stack import Stack
+from data_structures.queues.stack.stack import Stack
 
 def test_create_instance():
     stack = Stack()

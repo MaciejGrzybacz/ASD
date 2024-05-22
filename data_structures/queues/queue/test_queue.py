@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.queue import Queue
+from data_structures.queues.queue.queue import Queue
 
 def test_enqueue_single_element():
     queue = Queue()

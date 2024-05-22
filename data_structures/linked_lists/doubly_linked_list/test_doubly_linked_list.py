@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.doubly_linked_list import DoublyLinkedList
+from data_structures.linked_lists.doubly_linked_list.doubly_linked_list import DoublyLinkedList
 
 def test_empty_list_size():
     dll = DoublyLinkedList()

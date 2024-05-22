@@ -1,4 +1,4 @@
-from data_structures.implementations.bst import BST
+from data_structures.trees.binary_search_tree.bst import BST
 import pytest
 
 def test_add_valid_value():

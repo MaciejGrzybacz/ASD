@@ -1,5 +1,5 @@
 import pytest
-from data_structures.implementations.hash_table import HashTable
+from data_structures.hash_table.hash_table import HashTable
 
 def test_insert_key_value_pair():
     ht = HashTable()
