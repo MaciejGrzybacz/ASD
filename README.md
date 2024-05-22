@@ -17,6 +17,11 @@ Currently in development phase.
 * HashTable
 ### Arrays
 * Dynamic Array
+### Graphs
+* Adjacency List Unweighted Graph
+* Adjacency List Weighted Graph
+* Adjacency Matrix Unweighted Graph
+* Adjacency Matrix Weighted Graph
 ### Others
 * Union-Find
 
@@ -55,10 +60,6 @@ Each data structure and algorithm is accompanied by a suite of unit tests to ens
 ### Arrays
 * Longest Common Prefix Array
 * Suffix Array
-### Graphs
-* Adjacency List Graph
-* Adjacency Matrix Graph
-
 
 ## Algorithms
 
